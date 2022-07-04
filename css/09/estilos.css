@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+.parents
+{
+    border: 2px black dotted;
+    display: inline-block;
+}
+.box
+{
+    display: inline-block;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+#dos
+{
+    background-color: blueviolet;
+    position: relative; /* absolute pierde su posicion y se pone encima */
+            /* puedo mover el elemento usando un bottom = 15px*/
+}
