@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+h1
+{
+    color:purple;
+    font-family: serif;
+    margin-bottom: 10px;
+}
+.title
+{
+    font-size: 18px;
+    /* No se carga por que tiene un id que es mas importante */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    
+}
+.nav
+{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+.nav li
+{
+    display: inline-block;
+}
+.nav a
+{
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.nav .nav-blog
+{
+    background-color: orange;
+}

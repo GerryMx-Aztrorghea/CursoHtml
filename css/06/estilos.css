@@ -1,0 +1,7 @@
+/* equivalente o tilde */
+
+h2 ~ p
+/*Etiqueta que este tengan un hermano h2 seguido de un p */
+{
+    color:red;
+}
