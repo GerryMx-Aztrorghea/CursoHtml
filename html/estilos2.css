@@ -12,6 +12,7 @@ html{
     text-align: center;
     width: 8rem;
     padding: 10px;
+    border: 2px black solid;
     border-radius: 8px;
     display: inline-block;
     align-items: center;
@@ -23,7 +24,8 @@ html{
     background-color: grey;
     width: 25rem;
     padding: 40px;
-    border-radius: 8px;
+    border: 2px black solid;
+    border-radius: 15px;
     display: inline-block;
     align-items: center;
     
