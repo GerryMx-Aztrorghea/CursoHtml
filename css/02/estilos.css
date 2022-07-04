@@ -1,0 +1,43 @@
+.main-nav
+{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13a4a4;
+}
+.main-nav__item
+{
+    display: inline-block; /* poner los elementos en linea*/
+}
+.main-nav__item a
+{
+    color:white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+/*pseudoclases
+    https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes
+*/
+
+.main-nav__item a:hover /* mause este arriba del elemento*/
+{
+    color:blueviolet
+}
+
+.main-nav__item a:active /* mause se le de click*/
+{
+    color:red
+}
+
+/*pseudoelemento
+    https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements
+*/
+
+.main-nav__item a::afeter /* despues del elemento agrega esto */
+{
+    content: " | "
+}
+
+

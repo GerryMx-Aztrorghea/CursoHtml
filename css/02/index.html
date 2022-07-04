@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de estilos PseudoClases y PseudoElementos</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+
+    <!--
+
+        https://en.bem.info/methodology/faq/#how-does-bem-differ-from-oocss-amcss-smacss-suitcss
+
+        
+        BEM -- COMO SE GENERAN NOMBRES A CLASES QUE SE PUEDAN ESCALAR
+        B-BLOK --BLOQUES
+        E-ELEMENT --ELEMENTOS
+        M-MODIFIER --BLOQUES
+            * Componentes reutilizables, codigo claro y mantener la especificidad al minimo.
+        
+            blok .. entindad independiente (header, nav, formulario, footor, contenedor).
+                       Nombrar con su funcionalidad 
+                       <nav class="nav"></nav>
+            
+            element.. depende directamente de algo para existir (este esta ligado a otro).
+                       Nombrar con el elemnto de su bloque contenedor.
+                       uso de dos guines bajos
+                       y descripccion de elemento
+                       <form clasa="form">
+                            <input type='text' class="form__input">
+                            <input type='submit' class="form__send">
+                       </form>
+            modifier.. puede ser un bloque o elemento.
+                        Con nombre anteriormente (bloque o elemento)
+                        dos guiones medios 
+                        descripccion del modificador
+                       <nav class='nav'>
+                            <a href='' class="nav__link">
+                                nota: disabled desactivado
+                            <a href='' class="nav__link--disabled" >
+                        </nav>
+        --> 
+    <header>
+        <nav>
+            <ul clas="main-nav">
+                <li class="main-nav__item"><a href="">Home</a></li>
+                <li class="main-nav__item"><a href="">Cursos</a></li>
+                <li class="main-nav__item"><a href="">Instructores</a></li>
+                <li class="main-nav__item"><a href="">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <ul>
+                <li></li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
