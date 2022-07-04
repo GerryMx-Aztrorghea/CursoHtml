@@ -1,0 +1,30 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5;
+}
+.rojo{
+    background-color: red;
+    text-align: center;
+    width: 8rem;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    left: 130px;
+}
+.gris{
+    background-color: grey;
+    width: 25rem;
+    padding: 40px;
+    border-radius: 8px;
+    display: inline-block;
+    align-items: center;
+    
+}
