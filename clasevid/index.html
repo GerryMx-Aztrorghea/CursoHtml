@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agregando videos</title>
+</head>
+<body>
+    
+    <!--
+        video - etiqueta para cargar videos.
+
+        atributos: 
+            controls -> controles para manipular el video
+            preload="auto" -> descargue desde antes de que carga
+                    toda la pagina web
+
+        sorce = diferentes formatos
+            src -> carga la ruta del video 
+            #t=1,60 -> cargue en el segundo y se detiene en cual
+    -->
+
+    <main>
+
+        <section>
+
+            <video controls preload="auto">
+                <source src="./video/video1.mp4#t=05,25" typer ="mp4">
+                <source src="./video/video1.mov#t=05,25" type="mov">
+                <source src="./video/video1.webm#t=05,25" type="webm">
+            </video>
+        </section>
+
+    </main>
+
+</body>
+</html>
