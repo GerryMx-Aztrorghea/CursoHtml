@@ -1,0 +1,14 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*suma el padding y border con el width del elemento*/
+}
+
+main
+{
+    width: 100%; /*tamaño*/
+    height: 500px; /*alto*/
+    border: 10px solid grey; /*borde */
+    padding: 20px 35px; /*arriba-abajo derecha-izquierda*/
+}
