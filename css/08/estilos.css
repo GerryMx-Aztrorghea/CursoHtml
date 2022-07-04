@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+main
+{
+    background-color: red;
+    width: 100%;
+    height: 200px;
+}
+p{
+    font-size: 18px;
+}
+
+h1{
+    /* no es usuar utilizarla solo en casos especificios*/
+    font-size: 3em;
+    background-color: aqua;
+}
+
+h3
+{
+    /*se usa como medida estandar al formatear su medida */
+    font-size: 2rem;
+    background-color: blueviolet;
+}
+
+div
+{
+    /* width: 100vw; genera un espacio mas */
+    height: 60vh;
+    background-color: brown;
+}
+section{
+    width: 80%;
+    min-width: 320px; /*en que momento se aplicada esta*/
+    max-width: auto; /* ya no crece por que esta en su nivel maxico*/
+    min-height: 250px; /* creceria hasta que tape todo el conenido aunque si es menor respetara el espacio*/
+    margin: 0 auto; /* arriba-abajo 0 y izq-dere igual*/
+    background-color: aquamarine;
+}
+/*
+    px = se mantiene sin importar el tamaño de pantalla (absoluta)
+    %  = cambia de acuerdo a el tamaño (absoluta)
+
+
+    em = tamaño que tenga el elemento en px como padre directo.
+           nota = tener cuidado por que se heredan las medidas 
+                  del padre directo.
+
+    rem = tamaño que tenga la etiqueta de html por eso se formatea
+      html 62.5% = 1 rem = 10px
+*/
