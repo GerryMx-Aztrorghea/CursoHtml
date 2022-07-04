@@ -1,0 +1,18 @@
+/* convinador de hijos y desendientes*/
+
+/* la etiqueta p que sea hija de padre */
+div > p
+{
+    color: red;
+}
+
+/* decendiente todas las etiquetas p que esten adentro de article */
+article p
+{
+    color: blue
+}
+
+section > p
+{
+    color: red;
+}
