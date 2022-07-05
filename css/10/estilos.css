@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    font-size: 1.6rem;
+}
+
+.container
+{
+    border: .3rem solid black;
+    display: flex; /* permite hacer mas responsivo*/
+    /*flex-direction: column-reverse;  cambiar la direccion de los elementos */
+    /*flex-wrap:wrap-reverse;  wrap van saltando los espacios al hacer mas chica la ventana*/
+    /* justify-content: center; permite alinear los items */
+}   
+.box
+{
+    width: 10rem;
+    height: 10rem;
+}
+.box1
+{
+    background-color: aqua;
+}
+.box2
+{
+    background-color: blue;
+}
+.box3
+{
+    background-color: rgb(27, 228, 54);
+}
+.box4
+{
+    background-color: rgb(40, 7, 71);
+}
+.box5
+{
+    background-color: rgb(185, 26, 92);
+}
+.box6
+{
+    background-color: rgb(207, 72, 18);
+}

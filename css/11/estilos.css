@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    font-size: 1.6rem;
+}
+.container
+{
+    border: .3rem solid black;
+    display: flex; 
+    align-items: wrap; /* permite mover los objetos */
+    height: 50vh;
+}   
+.box
+{
+    width: 10rem;
+    height: 10rem;/* se elimina para que stretch permita tomar la medida maxima 
+                     baseline toma el espacio del contenido */
+    
+}
+.box1
+{
+    background-color: aqua;
+   /* order: 5;  cambiar la posicion de los datos */
+   flex-grow: 1; /* crezcan posiciones para ocupar el ancho de la pantalla */
+}
+.box2
+{
+    background-color: blue;
+   
+}
+.box3
+{
+    background-color: rgb(27, 228, 54);
+}
+.box4
+{
+    background-color: rgb(40, 7, 71);
+    
+}
+.box5
+{
+    background-color: rgb(185, 26, 92);
+}
+.box6
+{
+    background-color: rgb(207, 72, 18);
+}
