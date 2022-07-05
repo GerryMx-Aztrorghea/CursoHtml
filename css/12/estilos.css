@@ -1,0 +1,44 @@
+/* creacion de variables */
+:root
+{
+    --colorPrimario: #003476;
+    --colorSecundario: #b4d2f7;
+    --header-size: 4rem;
+    --font: 1.8rem;
+    --medida: 100vw;
+}
+
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html
+{
+    font-size: 62.5%;
+}
+header
+{
+    width: var(--medida);
+    height: 15vh;
+    background-color: var(--colorPrimario);
+}
+main
+{
+    width: var(--medida);
+    height: 70vh;
+    font-size: var(--font)
+}
+h1
+{
+    font-size: var(--header-size);
+    color: var(--colorPrimario);
+
+}
+footer
+{
+    width: var(--medida);
+    height: 15vh;
+    background-color: var(--colorSecundario);
+}
